@@ -1,9 +1,9 @@
 //some_comment 
 //comment number 2 (test editor)
-function sayHello() {
-    console.log ('Hello!')
+function sayHello(name, surname) {
+    console.log ('${name} S{surname}');
 }
 
-sayHello();
+sayHello('Robot', 'Dreams');
 
 //editor_test
